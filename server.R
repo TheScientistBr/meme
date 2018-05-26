@@ -13,3 +13,5 @@ shinyServer(function(input, output) {
         output$Bot <- renderPrint({ input$textTop  })
         output$Img <- renderPrint({ input$textTop  })
 })
+install_github("leeper/meme")
+library("devtools")
